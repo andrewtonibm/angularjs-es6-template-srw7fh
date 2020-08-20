@@ -1,0 +1,40 @@
+@import '../styles/variables';
+
+.splash-page {
+	padding-top: $classification-banner-height;
+	background-color: #414042;
+	p {
+		color: white;
+	}
+	#access-title {
+		font-size: 16px;
+		font-weight: 500;
+	}
+	#login-button {
+		padding: 6px 18px;
+		font-size: 16px;
+	}
+	.fine-print {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		p {
+			width: 60%;
+		}
+	}
+	.splash-header {
+		background-color: white;
+	}
+	.honey-comb {
+		background-image: url(/modules/common/img/honey_comb.svg);
+		background-repeat: no-repeat;
+		background-position: top left;
+		margin-left: -1px;
+		height: 180px;
+		width: 100%;
+	}
+	.swarm-logo {
+		height: 100px;
+		margin-top: 50px;
+	}
+}
